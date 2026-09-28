@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio cá nhân của sinh viên Công nghệ thông tin năm 2 - HTML5, CSS3, C/C++.">
+    <title>Portfolio | Hồ Gia Huệ - IT Student</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- ===== HEADER + NAV ===== -->
+    <header id="top" class="site-header">
+        <a href="#home" class="logo">MEO</a>
+        <button class="menu-btn" id="menuBtn" aria-label="Mở menu">☰</button>
+        <nav id="mainNav">
+            <ul>
+                <li><a href="#home">Trang chủ</a></li>
+                <li><a href="#about">Giới thiệu</a></li>
+                <li><a href="#skills">Kỹ năng</a></li>
+                <li><a href="#projects">Dự án</a></li>
+                <li><a href="#journey">Hành trình</a></li>
+                <li><a href="#blog">Bài viết</a></li>
+                <li><a href="#contact">Liên hệ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- ===== HERO ===== -->
+        <section id="home" class="hero">
+            <div class="hero-text">
+                <span class="badge">IT STUDENT • YEAR 2</span>
+                <h1>Xin chào! Mình là <span class="gradient-text">Hồ Gia Huệ</span></h1>
+                <p class="lead">Sinh viên Công nghệ thông tin với niềm yêu thích lập trình và thiết kế web.</p>
+                <p>Mình đang học HTML5, CSS3 và lập trình C/C++. Đây là góc nhỏ để mình lưu lại những gì đã học và đã làm.</p>
+                <div class="cta">
+                    <a href="#projects" class="btn btn-primary">Xem hồ sơ</a>
+                    <a href="#contact" class="btn btn-outline">Liên hệ tôi</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="blob"><img src="images/anh_gioi_thieu.jpg" alt="Ảnh chân dung"></div>
+                <div class="float-card"><strong>Currently learning</strong><span>HTML5 • CSS3 • C/C++</span></div>
+            </div>
+        </section>
+
+        <!-- ===== ABOUT ===== -->
+        <section id="about" class="section about">
+            <img src="images/anh_chan_dung.jpg" alt="Ảnh giới thiệu" class="about-img">
+            <div>
+                <h2>Về mình</h2>
+                <p><strong>Họ tên:</strong> Hồ Gia Huệ — sinh viên <em>năm 2</em>, ngành <span class="hl">Công nghệ thông tin</span> tại Đại học Giao thông Vận tải - Phân hiệu TP.HCM - UTC2.</p>
+                <p><strong>Quê quán:</strong> Đắk Lắk <strong>Sở thích:</strong> <span class="hl">lập trình</span>, thiết kế giao diện, nghe nhạc, thể thao.</p>
+                <p><strong>Mục tiêu:</strong> trở thành lập trình viên web, xây dựng những sản phẩm tiện lợi và dễ dùng.</p>
+                <a href="#journey" class="btn btn-primary">Xem thêm về mình</a>
+            </div>
+        </section>
+
+        <!-- ===== SKILLS ===== -->
+        <section id="skills" class="section">
+            <h2>Kỹ năng &amp; Công cụ</h2>
+            <div class="skill-groups">
+                <article class="skill-group">
+                    <h3>Đang học</h3>
+                    <ul>
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>C</li>
+                        <li>C++</li>
+                    </ul>
+                </article>
+                <article class="skill-group">
+                    <h3>Đã làm quen</h3>
+                    <ul>
+                        <li>Git</li>
+                        <li>GitHub</li>
+                        <li>VS Code</li>
+                        <li>Microsoft Office</li>
+                    </ul>
+                </article>
+                <article class="skill-group">
+                    <h3>Đang phát triển</h3>
+                    <ul>
+                        <li>Figma</li>
+                        <li>Canva</li>
+                        <li>Tư duy thuật toán</li>
+                    </ul>
+                </article>
+            </div>
+        </section>
+
+        <!-- ===== PROJECTS ===== -->
+        <section id="projects" class="section">
+            <h2>Dự án nổi bật</h2>
+            <div class="project-grid">
+                <article class="card project">
+                    <img src="images/anh_chan_dung.jpg" alt="Personal Portfolio">
+                    <div class="card-body">
+                        <h3>Personal Portfolio</h3>
+                        <p>[Placeholder] Website giới thiệu bản thân, bài tập môn Thiết kế Web.</p>
+                        <p class="tech">HTML5 + CSS3</p>
+                        <span class="status">Đang thực hiện</span>
+                        <a href="#" class="btn btn-small">Xem chi tiết</a>
+                    </div>
+                </article>
+                <article class="card project">
+                    <img src="images/anh_chan_dung.jpg" alt="C/C++ Programming Projects">
+                    <div class="card-body">
+                        <h3>C/C++ Programming Projects</h3>
+                        <p>[Placeholder] Các bài tập lập trình trên lớp. Thay bằng bài bạn đã làm.</p>
+                        <p class="tech">C / C++</p>
+                        <span class="status">Đang cập nhật</span>
+                        <a href="#" class="btn btn-small">Xem chi tiết</a>
+                    </div>
+                </article>
+                <article class="card project">
+                    <img src="images/anh_chan_dung.jpg" alt="Mini Web Design">
+                    <div class="card-body">
+                        <h3>Mini Web Design</h3>
+                        <p>[Placeholder] Trang web nhỏ luyện tập bố cục và CSS3.</p>
+                        <p class="tech">HTML5 + CSS3</p>
+                        <span class="status">Đang cập nhật</span>
+                        <a href="#" class="btn btn-small">Xem chi tiết</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- ===== JOURNEY ===== -->
+        <section id="journey" class="section">
+            <h2>Hành trình của mình</h2>
+            <ol class="timeline">
+                <li><span class="year">2024</span>
+                    <h3>Bắt đầu hành trình đại học</h3>
+                    <p>Bước vào ngành Công nghệ thông tin.</p>
+                </li>
+                <li><span class="year">2025</span>
+                    <h3>Làm quen với lập trình C/C++</h3>
+                    <p>Học tư duy lập trình và giải bài tập cơ bản.</p>
+                </li>
+                <li><span class="year">2026</span>
+                    <h3>Học HTML5 &amp; CSS3</h3>
+                    <p>Bắt đầu thiết kế những trang web đầu tiên.</p>
+                </li>
+                <li><span class="year">2026+</span>
+                    <h3>Xây dựng dự án cá nhân</h3>
+                    <p>Tiếp tục học và làm thêm nhiều sản phẩm.</p>
+                </li>
+            </ol>
+        </section>
+
+        <!-- ===== BLOG + ASIDE ===== -->
+        <section id="blog" class="section">
+            <h2>Bài viết &amp; Chia sẻ</h2>
+            <div class="blog-layout">
+                <div class="blog-list">
+                    <article class="card post">
+                        <time datetime="2026-01-10">10/01/2026</time>
+                        <h3>Những điều mình học được khi bắt đầu học lập trình</h3>
+                        <p>Vài lưu ý nhỏ từ những ngày đầu làm quen với code.</p>
+                        <a href="#" class="read-more">Đọc thêm</a>
+                    </article>
+                    <article class="card post">
+                        <time datetime="2026-02-05">05/02/2026</time>
+                        <h3>HTML5 và CSS3 có gì thú vị?</h3>
+                        <p>Những điều mình thấy hay khi học thiết kế web.</p>
+                        <a href="#" class="read-more">Đọc thêm</a>
+                    </article>
+                    <article class="card post">
+                        <time datetime="2026-03-01">01/03/2026</time>
+                        <h3>Hành trình trở thành sinh viên IT</h3>
+                        <p>Chia sẻ về năm đầu và năm hai đại học.</p>
+                        <a href="#" class="read-more">Đọc thêm</a>
+                    </article>
+                </div>
+                <aside class="aside">
+                    <h3>Currently Learning</h3>
+                    <ul>
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>C/C++</li>
+                        <li>Data Structures &amp; Algorithms</li>
+                    </ul>
+                    <div class="goal"><strong>Goal 2026</strong>
+                        <p>Build my first complete portfolio website.</p>
+                    </div>
+                </aside>
+            </div>
+        </section>
+
+        <!-- ===== CONTACT ===== -->
+        <section id="contact" class="section contact">
+            <div>
+                <h2>Liên hệ với mình</h2>
+                <ul class="contact-list">
+                    <li>Email: <a href="mailto:huegia08@gmail.com">huegia08@gmail.com</a></li>
+                    <li>Facebook: <a href="https://www.facebook.com/share/1DFhzZ1JJT/?mibextid=wwXIfr" target="_blank">Facebook</a></li>
+                    <li>GitHub: <a href="https://github.com/zhaahue08" target="_blank">github.com/zhaahue08</a></li>
+                    <li>TikTok: <a href="https://www.tiktok.com/@zh_031007" target="_blank">https://www.tiktok.com/@zh_031007</a></li>
+                    <li>Điện thoại: <a href="tel:0363340638">0363340638</a></li>
+                    <li>Trường:Đại học Giao thông Vận tải - Phân hiệu TP.HCM - UTC2<a href="https://www.utc2.edu.vn/" target="_blank"> (UTC2)</a>
+
+                    </li>
+                </ul>
+            </div>
+            <form action="#" method="post">
+                <label for="name">Họ tên</label>
+                <input type="text" id="name" name="name" placeholder="Nguyen Van A">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="email@example.com">
+                <label for="msg">Nội dung</label>
+                <textarea id="msg" name="msg" rows="4" placeholder="Bạn muốn nhắn gì với mình?"></textarea>
+                <button type="submit" class="btn btn-primary">Gửi tin nhắn</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="site-footer">
+        <strong class="logo-text">Hồ Gia Huệ</strong>
+        <p>Learning • Building • Growing</p>
+        <p class="social"><a href="#">Facebook</a> <a href="#">GitHub</a> <a href="#">LinkedIn</a></p>
+        <a href="#top" class="to-top">↑ Về đầu trang</a>
+        <small>© 2026 Hồ Gia Huệ. All rights reserved.</small>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
